@@ -32,7 +32,7 @@ function Side() {
   return (
     <div>
       <div className="body">
-        <Sidebar />
+      <Sidebar />
       </div>
       <div>
       <CreateNote passNote={addNote} />

@@ -15,16 +15,17 @@ function App() {
         <>
         <Header/>
         {/* <Sidebar/> */}
-        <BrowserRouter basename="/Note-keeping/note-keep">
+        <BrowserRouter basename="/Google-keep-clone">
+
         <Routes>
-            <Route index element={<Sidebar/>}/>
-                <Route path="*" element={<Side/>}/>
+            <Route index element={<Side/>}/>
+                <Route path="*" element={<Sidebar/>}/>
                 <Route path="Reminders" element={<Reminder/>} />
                  <Route path="edit" element={<Label/>} />
                  <Route path="archive" element={<Archieve/>} />
-                 <Route path="trash" element={<Trash/>} />
-                 
+                 <Route path="trash" element={<Trash/>} />       
         </Routes>
+        
         </BrowserRouter>
         <Footer/>
         </>

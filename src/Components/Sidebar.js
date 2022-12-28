@@ -6,7 +6,7 @@ function Sidebar() {
         <>
         <nav>
         <ul className="sidebar">
-           <li><Link to="/Note-Keeping" className="links">Notes</Link></li> <br/>
+           <li><Link to="/" index className="links">Notes</Link></li> <br/>
            <li><Link to="/Reminders" className="links">Reminders</Link></li><br/>
            <li><Link to="/edit" className="links">Edit Labels</Link></li><br/>
            <li><Link to="/archive" className="links">Archive</Link></li><br/>
